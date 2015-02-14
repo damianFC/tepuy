@@ -30,7 +30,7 @@ This project is a fork of the Alexa-Home project by:
 
 ## Contributing
 
-Pull requestes and issues are always the best ways to contribute.
+Pull requests and issues are always the best ways to contribute.
 
 ## License
 
