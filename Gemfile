@@ -18,6 +18,8 @@ gem 'rake'
 gem 'watir-webdriver'
 gem 'daemons'
 
+gem 'ruby-gmail'
+
 group :development do
   gem 'sqlite3'
 end
