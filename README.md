@@ -14,12 +14,12 @@ export NEST_PASS=your_nest_password_not_test123
 export AMAZON_EMAIL=youramazonlogin
 export AMAZON_PASSWORD=your_awesome_pass_not_12345
 
-# For IFTTT Integration set this parameters:
+* For IFTTT Integration set this parameters:
 
 export GMAIL_EMAIL=yourgmail@gmail.com
-# Consider using 2-factor authentication and obtain an application key!
+ (Consider using 2-factor authentication and obtain an application key!)
 export GMAIL_PASS=youremailpassword
-# Define a seed in here, that way others without the seed can't send emails to you and trigger IFTTT
+ (Define a seed in here, that way others without the seed can't send emails to you and trigger IFTTT)
 export GMAIL_SEED=thisistheseedyoullneedfortheIFTTTrecipe-CHANGEME-TO-SOMETHING-RANDOM
 
 
@@ -29,7 +29,7 @@ For more, check out [Using Environment Variables to Safely Store API Credentials
 ## Getting Started
 
 TODO
-* Need to send Amazon a request to delete the command just processed or we'll process it again
+* Save last command locally so we don't run it again on second startup.
 
 ## Contributors
 

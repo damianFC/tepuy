@@ -19,6 +19,8 @@ gem 'watir-webdriver'
 gem 'daemons'
 
 gem 'ruby-gmail'
+gem 'nokogiri'
+gem 'mechanize'
 
 group :development do
   gem 'sqlite3'
