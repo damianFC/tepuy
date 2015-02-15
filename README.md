@@ -14,14 +14,20 @@ export NEST_PASS=your_nest_password_not_test123
 export AMAZON_EMAIL=youramazonlogin
 export AMAZON_PASSWORD=your_awesome_pass_not_12345
 
-* For IFTTT Integration set this parameters:
+
+ * For IFTTT Integration set this parameters:
 
 export GMAIL_EMAIL=yourgmail@gmail.com
- (Consider using 2-factor authentication and obtain an application key!)
+
+ (Consider using 2-factor authentication and obtain an application key!):
 export GMAIL_PASS=youremailpassword
+
  (Define a seed in here, that way others without the seed can't send emails to you and trigger IFTTT)
 export GMAIL_SEED=thisistheseedyoullneedfortheIFTTTrecipe-CHANGEME-TO-SOMETHING-RANDOM
 
+
+  * To post a tweet then. Call Alexa: "alexa tweet mytweet" and Tepuy will send an email to your address with the subject (using the seed) and the body with the tweet.
+  * You need to create a IFTTT Recipe: if gmail subject is 'echo tweet myseed' then post body to twitter.
 
 
 For more, check out [Using Environment Variables to Safely Store API Credentials](http://blog.zfeldman.com/2014-04-07-Using-Environment-Variables-to-Safely-Store-API-Credentials)
